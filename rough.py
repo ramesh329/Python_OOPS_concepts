@@ -12,3 +12,21 @@
 from oops_project import chatbook
 user1 = chatbook()
 
+#user3 = chatbook()
+
+#encapsulation
+#print(user1._chatbook__name)
+
+# getter and setter
+# print(user1.get_name())
+# user1.set_name("Agent_x")
+# print(user1.get_name())
+
+
+# print(user1.id)
+# print(user2.id)
+# print(user3.id)
+
+chatbook.set_id(10)
+user2 = chatbook()
+print(user2.id)
